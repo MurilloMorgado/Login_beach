@@ -15,10 +15,10 @@ body{
 
 header{
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
 
-  width: 100%;
+  width: 95%;
   margin: 0 auto;
   background: #00000020;
   border-radius: 0 0 20px 20px;
@@ -38,36 +38,36 @@ header{
   margin: 10px;
   height: 8vh;
 }
+
 nav ul li a {
   color: var(--preto);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 600;
   letter-spacing: 5px;
-
-  
-  text-decoration: none;
 }
 
 nav{
-
+  position: absolute;
+  top: 90px;
+  left: 200px;
   
+ 
 }
 
 nav ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 92vh;
+  
+  background: red;
+  
 }
+
 
 nav ul li{  
-  text-align: center;
-  border-bottom: #000000 1PX solid;
+  margin: 10px;
   
-  margin: 20px;
 }
 
-.container_toggle{
+/*  */
+.menu-section{
   display: flex;
   align-items: center;
   
@@ -113,8 +113,8 @@ nav ul li{
 
 .container{
   width: 90%;
-  height: 92vh;
-  margin: 0 auto;
+  
+  margin: 150px auto;
 
   display: flex;
   align-items: center;
