@@ -89,8 +89,10 @@ nav ul li{
 
   background-color: #000000;
 }
+
 #chk-toggle:checked ~ nav{
   display: flex;
+
 }
 .container{
   width: 90%;
