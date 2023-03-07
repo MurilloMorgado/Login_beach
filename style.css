@@ -19,11 +19,9 @@ header{
   flex-wrap: wrap;
 
   width: 100%;
-  
   margin: 0 auto;
   background: #00000020;
   border-radius: 0 0 20px 20px;
-
 }
 
 .logo{
@@ -38,6 +36,7 @@ header{
   font-style: italic;
 
   margin: 10px;
+  height: 8vh;
 }
 nav ul li a {
   color: var(--preto);
@@ -50,9 +49,10 @@ nav ul li a {
 }
 
 nav{
-  flex-basis: 100%;
-  display: none;
+
+  
 }
+
 nav ul{
   display: flex;
   flex-direction: column;
@@ -72,16 +72,18 @@ nav ul li{
   align-items: center;
   
 }
-#chk-toggle{
-  display: none;
+
+.toggle .on{
+  display: block;
 }
 
-#toggle{
+
+.menu-toggle{
   display: inline-block;
   margin: 10px ;
 }
 
-#toggle span{
+.menu-toggle span{
   display: block;
   width: 32px;
   height: 4px;
@@ -90,10 +92,25 @@ nav ul li{
   background-color: #000000;
 }
 
-#chk-toggle:checked ~ nav{
-  display: flex;
 
+.menu-section.on nav{
+  
+  
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container{
   width: 90%;
   height: 92vh;
