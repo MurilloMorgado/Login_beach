@@ -10,108 +10,67 @@ body{
   background-image: url(img/sean-oulashin-KMn4VEeEPR8-unsplash.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 20%;
 }
 
-header{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+header {
+  background: #353b48;
+}
 
-  width: 100%;
+.container_nav{
+  display: flex;
+  justify-content: space-around;
   
-  margin: 0 auto;
-  background: #00000020;
-  border-radius: 0 0 20px 20px;
-
+  height: 80px;
+  align-items: center;
 }
 
-.logo{
-  display: flex;
-  align-items: center;
+.container_nav .logo{
+  font-size: 32px;
+  font-weight: 700;
   text-decoration: none;
 
   color: #FFFFFF;
-
-  font-size: 2rem;
-  font-weight: 700;
-  font-style: italic;
-
-  margin: 10px;
-}
-nav ul li a {
-  color: var(--preto);
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: 5px;
-
-  
-  text-decoration: none;
 }
 
 nav{
-  flex-basis: 100%;
   display: none;
+}
+.menu-toggle span{
+  display: block;
+  width:  30px;
+  height: 3px;
+  margin: 5px 0;
+
+  background: #FFFFFF;
+}
+
+.menu-section.on nav {
+  display: block;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  left: 0px;
+  top: 80px;
+
+  background: #353b48;
+} 
+nav ul li a{
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-decoration: none;
+
+  color: #FFFFFF;
+  padding: 30px 50px;
+}
+
+nav ul li a:hover{
+  background: rgba(255,255,255, 0.15);
+}
+
+nav ul li{
+  padding: 50px 0px;
 }
 nav ul{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 92vh;
-}
-
-nav ul li{  
-  text-align: center;
-  border-bottom: #000000 1PX solid;
-  
-  margin: 20px;
-}
-
-.container_toggle{
-  display: flex;
-  align-items: center;
-  
-}
-#chk-toggle{
-  display: none;
-}
-
-#toggle{
-  display: inline-block;
-  margin: 10px ;
-}
-
-#toggle span{
-  display: block;
-  width: 32px;
-  height: 4px;
-  margin: 5px;
-
-  background-color: #000000;
-}
-
-#chk-toggle:checked ~ nav{
-  display: flex;
-
-}
-.container{
-  width: 90%;
-  height: 92vh;
-  margin: 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.container_login{
-  width: 400px;
-  height: 550px;
-  background: #ffffff10;
-
-  border-radius: 10px;
-  border: 1px var(--preto) solid;
-  backdrop-filter: blur(1px);
-
+  height: 100vh;
 }
