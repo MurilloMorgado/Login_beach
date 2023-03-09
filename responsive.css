@@ -30,7 +30,6 @@
         align-items: flex-start;
         
         margin: 0 20px;
-
         width: 40%;
     }
 
@@ -58,21 +57,16 @@
     }
 
     .menu-section nav ul{
-        display: contents;
-        
+        display: contents;      
     }
     .menu-section nav ul li{
         margin: -50px;
-
     }
     .menu-section nav ul li a{
-        font-size: 16px;
-        
+        font-size: 16px;      
     }
-
-    
-
 }
+
 @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
 
@@ -80,5 +74,4 @@
         font-size: 45px;
         
     }
-
 }

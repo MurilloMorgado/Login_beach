@@ -26,7 +26,6 @@ header {
   display: flex;
   justify-content: space-around;
   
-  /* height: 80px; */
   height: 8vh;
   align-items: center;
 }
@@ -72,7 +71,6 @@ nav ul li a{
   color: #FFFFFF;
   margin: 30px 50px;
   padding: 20px 20px;
- 
 }
 
 nav ul li a:hover{
@@ -92,7 +90,6 @@ nav ul{
   justify-content: center;
   align-items: center;
   height: 87vh;
-
 }
 
 .container_painel{
@@ -173,7 +170,6 @@ nav ul{
 .sem_conta{
   font-size: 16px;
   font-weight: 500;
-
   text-align: center;
   
   margin-top: 50px;
@@ -200,4 +196,3 @@ footer p{
   text-align: center;
   color: #FFFFFF;
 }
-
