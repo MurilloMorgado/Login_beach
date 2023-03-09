@@ -18,13 +18,67 @@
 }
 @media (min-width:1025px) { 
     /* big landscape tablets, laptops, and desktops */ 
+    .teste {
+        display: flex;
+    }
 
     .mensagem{
-        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        margin: 0 20px;
+
+        width: 40%;
+    }
+
+    .mensagem h1{
+        font-size: 35px;
+        font-weight: 700;
+        font-family: 'Climate Crisis', cursive;
+        letter-spacing: 5px;
+    }
+
+    .mensagem h2{
+        font-size: 22px;
+        font-weight: 700;
+        margin-top: 10px;
+
+        font-family: 'Climate Crisis', cursive;
+    }
+    
+    .menu-toggle{
+        display: none;
+    }
+
+    .menu-section nav{
+        display: flex;
+    }
+
+    .menu-section nav ul{
+        display: contents;
+        
+    }
+    .menu-section nav ul li{
+        margin: -50px;
+
+    }
+    .menu-section nav ul li a{
+        font-size: 16px;
+        
     }
 
 }
 @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
+
+    .container_painel{
+        margin-top: 150px;
+    }
+
+    .mensagem h1{
+        font-size: 45px;
+        
+    }
 
 }
