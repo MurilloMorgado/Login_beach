@@ -1,10 +1,12 @@
-@media (min-width:320px) { 
-    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
-
-}
 @media (min-width:480px) { 
     /* smartphones, Android phones, landscape iPhone */ 
+    .container_painel{
+        width: 350px;
+    }
 
+    .botao_login{
+        margin: 35px auto;
+    }
 }
 @media (min-width:600px) { 
     /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
@@ -16,6 +18,10 @@
 }
 @media (min-width:1025px) { 
     /* big landscape tablets, laptops, and desktops */ 
+
+    .mensagem{
+        display: block;
+    }
 
 }
 @media (min-width:1281px) { 
