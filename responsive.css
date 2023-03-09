@@ -7,25 +7,27 @@
     .botao_login{
         margin: 35px auto;
     }
-}
-@media (min-width:600px) { 
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
 
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
-@media (min-width:801px) { 
-    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
 
-}
 @media (min-width:1025px) { 
     /* big landscape tablets, laptops, and desktops */ 
     .teste {
         display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
     }
 
     .mensagem{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: flex-start;
         
         margin: 0 20px;
 
@@ -68,13 +70,11 @@
         
     }
 
+    
+
 }
 @media (min-width:1281px) { 
     /* hi-res laptops and desktops */ 
-
-    .container_painel{
-        margin-top: 150px;
-    }
 
     .mensagem h1{
         font-size: 45px;

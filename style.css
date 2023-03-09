@@ -26,7 +26,8 @@ header {
   display: flex;
   justify-content: space-around;
   
-  height: 80px;
+  /* height: 80px; */
+  height: 8vh;
   align-items: center;
 }
 
@@ -56,7 +57,7 @@ nav{
   width: 100%;
   text-align: center;
   left: 0px;
-  top: 80px;
+  top: 8vh;
 
   background: #353b48;
 
@@ -86,12 +87,18 @@ nav ul{
 }
 
 /* Main */
+.teste{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 87vh;
+
+}
 
 .container_painel{
   width: 280px;
   height: 400px;
-  margin: 100px auto 0;
-
+  
   border: #000000 solid 1px;
   border-radius: 10px;
   box-shadow: 4px 6px 5px;
@@ -181,3 +188,16 @@ nav ul{
   display: block;
   margin-top: 10px;
 }
+
+/* Footer */
+
+footer{
+  background: #353b48;
+  height: 5vh;
+}
+
+footer p{
+  text-align: center;
+  color: #FFFFFF;
+}
+
