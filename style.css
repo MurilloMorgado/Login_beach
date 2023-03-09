@@ -95,6 +95,7 @@ nav ul{
 .container_painel{
   width: 280px;
   height: 400px;
+  padding: 10px;
   
   border: #000000 solid 1px;
   border-radius: 10px;
@@ -104,29 +105,33 @@ nav ul{
   backdrop-filter: blur(10px);
 }
 
+/* Bem-vindo */
 .container_login h2{
   font-size: 32px;
   font-weight: 700;
 
-  padding: 10px 20px;
+  padding: 10px 0;
 }
 
+/* Email e Senha */
 .container_login h3{
   font-size: 18px;
   font-weight: 500;
 
-  padding: 5px 20px;
+  padding: 5px 0px;
 }
 
+/* Input Emal e Senha */
 .form{
-  width: 86%;
+  width: 98%;
   height: 30px;
-  margin: 5px 20px;
+  margin: 10px 0;
 
   border: none;
   border-radius: 10px;
 }
 
+/* Lembrar de mim */
 .lembrar_de_mim{
   display: flex;
 }
@@ -139,9 +144,9 @@ nav ul{
 .lembrar_esqueceu{
   display: flex;
   justify-content: space-around;
-  font-size: 16px;
+  font-size: 14px;
   
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .lembrar_esqueceu a {
@@ -167,12 +172,13 @@ nav ul{
   background: #353b48;
 }
 
+/* Não tem uma conta? */
 .sem_conta{
   font-size: 16px;
   font-weight: 500;
   text-align: center;
   
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .reg{
   text-decoration: none;
