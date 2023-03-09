@@ -1,3 +1,5 @@
+/* First mobile, min-with de 320px */
+
 :root {
   --preto: #000000;
   font-family: 'Signika', sans-serif;
@@ -80,9 +82,9 @@ nav ul{
 /* Main */
 
 .container_painel{
-  width: 350px;
+  width: 280px;
   height: 400px;
-  margin: 30px auto;
+  margin: 100px auto 0;
 
   border: #000000 solid 1px;
   border-radius: 10px;
@@ -90,7 +92,6 @@ nav ul{
 
   background: #FFFFFF10;
   backdrop-filter: blur(10px);
-  
 }
 
 .container_login h2{
@@ -147,9 +148,11 @@ nav ul{
   letter-spacing: 2px;
   color: #FFFFFF;
 
+  display: block;
+  
   width: 150px;
   height: 40px;
-  margin: 10px 100px;
+  margin: 10px auto;
 
   background: #353b48;
 }
